@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.source_files  = '*.h'
   s.vendored_libraries = 'libComiUI.a'
   s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'Accelerate'
+  s.resources = "resource/*.bundle"
   s.license = 'MIT'
   s.requires_arc  = true
 
